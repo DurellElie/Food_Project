@@ -1,0 +1,82 @@
+body{
+    margin: auto;
+    height: auto;
+    background-color: burlywood;
+}
+header{
+    background-color: white;
+    }
+    .mother{
+        display: flex;
+        justify-content: space-between;
+        /* border: solid gray; */
+        height: 10vh;
+        /* background-color: black; */
+    }
+    
+    
+    h1{
+        /* text-align: center; */
+        color: black;
+        line-height: 5vh;
+    
+    }
+    .menu{
+        text-align: center;
+        height: 4vh;
+        line-height: 10vh;
+        margin-right: 3vw;
+    }
+    .menu nav a {
+        margin-left: 1vw;
+        text-decoration: none;
+        
+    }
+    
+    .menu nav a:hover{
+        color: rgb(128, 75, 0);
+    }
+.sec1{
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.mom{
+    display: flex;
+    gap: 30px;
+    /* margin-left: 13rem; */
+    /* margin-right: 18rem; */
+}
+.about{
+    /* border: solid black; */
+    /* text-align: center; */
+    /* background-color: white; */
+    /* margin-right: 5rem; */
+}
+.about .us h1{
+    color: black;
+    font-size: 3rem;
+}
+.contact{
+    /* border: solid red; */
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+}
+.contact .us h1{
+    color: white;
+    font-size: 3rem;
+}
+.contact .mission h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 200px;
+    width: 100%;
+    height: 100px;
+    background-color: #999;
+}

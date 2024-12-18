@@ -1,0 +1,143 @@
+body{
+    width: auto;
+    height: auto;
+    /* background-color: black; */
+    background-image: url("/html/images/beef\ burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+@media only screen and (max-width:500px){
+    [class*="mother"]{
+        width: 100%;
+        /* background-image: url(/html/images/burger.png); */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    [class*="section1"]{
+        width: 100%;
+        /* background-image: url(/html/images/burger.png); */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+header{
+/* background-color: orange; */
+}
+.mother{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid gray; */
+    height: 10vh;
+    /* background-color: black; */
+    
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    line-height: 5vh;
+
+}
+.menu{
+    text-align: center;
+    height: 4vh;
+    line-height: 10vh;
+    margin-right: 3vw;
+}
+.menu nav a {
+    margin-left: 1vw;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu nav a:hover{
+    color: orange;
+}
+.section1{
+    margin-left: 2rem;
+}
+.para{
+    font-size: 3rem;
+    color: white;
+}
+a button{
+    border-radius: 10px;
+    height: 3rem;
+    width: 9rem;
+    border: none;
+    background-color: orange;
+    color:white ;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sec2{
+    background-color: black;
+    width: 100%;
+}
+
+.sec2 h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+.sec2 p{
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+.sec2 .img{
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+.sec2 .img img{
+    width: 15vw;
+    
+}
+footer{
+    background-color: white;
+
+}
+.contact h4{
+    font-size: 2.5rem;
+    text-align: center;
+    /* color: white; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.info{
+    margin-left: 10rem;
+    display: flex;
+    gap: 10rem;
+}
+.info h6{
+    font-size: 1.5rem;
+    /* color: white; */
+    margin-bottom: 1rem;
+}
+.info p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    /* color: white; */
+}
+.info .phone p{
+    color: orange;
+}
+.footer{
+    text-align: center;
+    top: 200px;
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    /* color: white; */
+}
+
+

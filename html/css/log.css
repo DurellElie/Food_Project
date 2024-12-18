@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+fieldset{
+    margin: 5vw 70vw 4vw 6vw;
+    height: 20vh;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+form{
+    text-align: center;
+    margin: 2vw 50vw 2vw 30vw;
+}
+.footer{
+    text-align: center;
+    /* top: 200px; */
+    margin-top: 200px;
+    width: 100%;
+    height: 100px;
+    background-color: #999;
+}
